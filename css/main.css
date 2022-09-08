@@ -4,10 +4,12 @@ body {
     margin: 0;
 }
 
+/*ths include the notes styleing*/
 .notes {
     display: flex;
     height: 100%;
 }
+
 
 .notes * {
     font-family: sans-serif;
@@ -41,6 +43,8 @@ body {
 .notes__list-item {
     cursor: pointer;
 }
+
+/* modifier class*/
 
 .notes__list-item--selected {
     background: #eeeeee;
@@ -91,5 +95,5 @@ body {
     font-size: 1.2em;
     line-height: 1.5;
     margin-top: 2em;
-    resize: none;
+    r2222222                                esize: none;
 }
