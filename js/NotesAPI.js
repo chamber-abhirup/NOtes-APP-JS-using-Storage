@@ -2,6 +2,8 @@ export default class NotesAPI {
     static getAllNotes() {
         const notes = JSON.parse(localStorage.getItem("notesapp-notes") || "[]");
 
+        //sorts algo is being used 
+        //sort our notes based on updated timestamps
         return notes.sort((a, b) => {
             return new Date(a.updated) > new Date(b.updated) ? -1 : 1;
         });
